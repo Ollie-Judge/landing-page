@@ -3,72 +3,127 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
     <title>Landing page</title>
   </head>
   <body>
     <header>
-      <a class="siteTitle" href="index.html"
-        ><h1 class="title">Basic Website</h1>
+      <a id="siteTitleLink" href="index.html"
+        ><h3 id="title">Header Logo</h1>
       </a>
       <nav>
         <ul>
           <li>
-            <a href="index.html">Home</a>
+            <a href="index.html">Header link 1</a>
           </li>
           <li>
-            <a href="photos.html">Photos</a>
+            <a href="index.html">Header link 2</a>
           </li>
           <li>
-            <a href="about.html">About</a>
-          </li>
-          <li>
-            <a href="contact.html">Contact</a>
+            <a href="index.html">Header link 3</a>
           </li>
         </ul>
       </nav>
     </header>
     <main>
-      <div id="container1"></div>
-      <div id="randomInfo">
-        <h3>Some random information</h3>
+      <div id="container1">
+        <div id="container1TextContainer">
+            <div id="container1HeaderContainer">
+                <h2 id="container1Header">This website is awesome</h2>
+            </div>
+            <div id="container1MainTextContainer">
+                <p id="container1MainText">
+                    This website has some subtext that goes here under the main title.
+                    It's a smaller font and the colour is lower contrast
+                </p>
+            </div>
 
-        <div class="randomInfoBox">
-          <div class="roundedCornerBox"></div>
-          <div>
-            <p>This is some subtext under an illustration or an image</p>
-          </div>
+            <div id="container1ButtonContainer">
+                <button id="signup">Sign up</button>
+            </div>
         </div>
 
-        <div class="randomInfoBox">
-          <div class="roundedCornerBox"></div>
-          <div>
-            <p>This is some subtext under an illustration or an image</p>
-          </div>
+        <div id="container1imageContainer">
+            <div id="imgContainer">
+                <img src="/" alt="image goes here">
+            </div>
         </div>
 
-        <div class="randomInfoBox">
-          <div class="roundedCornerBox"></div>
-          <div>
-            <p>This is some subtext under an illustration or an image</p>
-          </div>
+      </div>
+
+      <div id="randomInfoContainer">
+        <div id="randomInfoTitleContainer">
+          <h3 id="randomTitle">Some random information.</h3>
         </div>
 
-        <div class="randomInfoBox">
-          <div class="roundedCornerBox"></div>
-          <div>
-            <p>This is some subtext under an illustration or an image</p>
+        <div id="randomInfoBoxContainer">
+          <div class="randomInfoBox">
+            <div class="roundedCornerBox"></div>
+            <div>
+              <p class="randomSubtext">This is some subtext under an illustration or an image</p>
+            </div>
+          </div>
+
+          <div class="randomInfoBox">
+            <div class="roundedCornerBox"></div>
+            <div>
+              <p class="randomSubtext">This is some subtext under an illustration or an image</p>
+            </div>
+          </div>
+
+          <div class="randomInfoBox">
+            <div class="roundedCornerBox"></div>
+            <div>
+              <p class="randomSubtext">This is some subtext under an illustration or an image</p>
+            </div>
+          </div>
+
+          <div class="randomInfoBox">
+            <div class="roundedCornerBox"></div>
+            <div>
+              <p class="randomSubtext">This is some subtext under an illustration or an image</p>
+            </div>
           </div>
         </div>
       </div>
 
       <div id="quoteSection">
-        <div></div>
+        <div id="quoteBox">
+          <p id="quoteText">
+            This is an inspiring quote, or a testemonial from a customer. Maybe
+            its just filling up space, or maybe people will actually read it.
+            Who knows? All I know is that it looks nice.
+          </p>
+          <p id="quoteBy">-Thor, The God of Thunder</p>
+        </div>
       </div>
 
       <div id="callToActionSection">
-        <div></div>
+        <div id="callToActionContainer">
+          <div id="callToActionWordsContainer">
+            <div id="callToActionTitleContainer">
+              <h5 id="callToActionTitle">Call to action, It's time!</h6>
+            </div>
+            <div id="callToActionMessageContainer">
+              <p>
+                Sign up for our product by clicking that button right over
+                there!
+              </p>
+            </div>
+          </div>
+          <div id="callToActionButtonContainer">
+            <button id="callToActionButton">Sign up</button>
+            </div>
+        </div>
       </div>
     </main>
-    <footer><a>copywrite abc 123</a></footer>
+    <footer>
+      <div id="copyrightDiv">
+        <a id="copyright">Copyrite © The Odin Project 2021</a>
+      </div>
+    </footer>
   </body>
 </html>
